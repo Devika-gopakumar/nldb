@@ -2,7 +2,7 @@
 
 # Database
 DB_HOST = "localhost"
-DB_NAME = "school"
+DB_NAME = "university_db"
 DB_USER = "postgres"
 DB_PASSWORD = "abcd"
 
@@ -10,7 +10,7 @@ DB_PASSWORD = "abcd"
 EMBEDDING_MODEL = "hf.co/CompendiumLabs/bge-base-en-v1.5-gguf:latest"
 
 # LLM model (Ollama)
-LLM_MODEL = "llama3.1:latest"
+LLM_MODEL = "llama3:latest"
 
 # ChromaDB
 CHROMA_PATH = "./rag_db"
